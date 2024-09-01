@@ -1,27 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sudoku alvarito101093</title>
-  </head>
-  <body style="">
-    <table  style="border: 1px solid; height: 100px; width: 400px;">
-      <tr >
-        <td style="border: 1px solid black;">1</td>
-        <td style="border: 1px solid black;">2</td>
-        <td>3</td>
-      </tr>
-      <tr>
-        <td>4</td>
-        <td>5</td>
-        <td>6</td>
-      </tr>
-      <tr>
-        <td>7</td>
-        <td>8</td>
-        <td>9</td>
-      </tr>
-    </table>
-  </body>
+    <style>
+        /* Tamaño principal tablero */
+        table {
+            border-collapse: collapse;
+            width: 450px;
+            height: 450px;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        td {
+            width: 50px;
+            height: 50px;
+            border: 1px solid black;
+        }
+
+        /* Bordes 3x3 principales */
+        td:nth-child(3n) {
+            border-right: 2px solid black;
+        }
+        
+        tr:nth-child(3n) td {
+            border-bottom: 2px solid black;
+        }
+
+        td:first-child {
+            border-left: 2px solid black;
+        }
+
+        tr:first-child td {
+            border-top: 2px solid black;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="justify-content: center; text-align: center;">Sudoku by alvarito101093</h1>
+    <div style="justify-content: center; align-items: center;">
+        <table >
+            <tr>
+                <td>1</td><td>2</td><td>3</td>
+                <td>1</td><td>2</td><td>3</td>
+                <td>1</td><td>2</td><td>3</td>
+            </tr>
+            <tr>
+                <td>4</td><td>5</td><td>6</td>
+                <td>4</td><td>5</td><td>6</td>
+                <td>4</td><td>5</td><td>6</td>
+            </tr>
+            <tr>
+                <td>7</td><td>8</td><td>9</td>
+                <td>7</td><td>8</td><td>9</td>
+                <td>7</td><td>8</td><td>9</td>
+            </tr>
+            <tr>
+                <td>1</td><td>2</td><td>3</td>
+                <td>1</td><td>2</td><td>3</td>
+                <td>1</td><td>2</td><td>3</td>
+            </tr>
+            <tr>
+                <td>4</td><td>5</td><td>6</td>
+                <td>4</td><td>5</td><td>6</td>
+                <td>4</td><td>5</td><td>6</td>
+            </tr>
+            <tr>
+                <td>7</td><td>8</td><td>9</td>
+                <td>7</td><td>8</td><td>9</td>
+                <td>7</td><td>8</td><td>9</td>
+            </tr>
+            <tr>
+                <td>1</td><td>2</td><td>3</td>
+                <td>1</td><td>2</td><td>3</td>
+                <td>1</td><td>2</td><td>3</td>
+            </tr>
+            <tr>
+                <td>4</td><td>5</td><td>6</td>
+                <td>4</td><td>5</td><td>6</td>
+                <td>4</td><td>5</td><td>6</td>
+            </tr>
+            <tr>
+                <td>7</td><td>8</td><td>9</td>
+                <td>7</td><td>8</td><td>9</td>
+                <td>7</td><td>8</td><td>9</td>
+            </tr>
+        </table>
+    </div>
+</body>
 </html>
